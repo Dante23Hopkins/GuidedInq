@@ -1,0 +1,29 @@
+Pop-products{
+margin-top: 25px;
+max-width: 1000px;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid: gap 10px;
+
+}
+
+h2{ backround-color:red;
+     border: 2px solid gray;
+    text-align:center
+ }
+ 
+ .products{
+    background-color: gray;
+    height: fit-content;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid gray;
+ }
+ .item{
+    font-size: 15px;
+    font-weight: bolder;
+ }
+ .price{
+    font-style: oblique;
+ }
